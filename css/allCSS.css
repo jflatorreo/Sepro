@@ -1,0 +1,60 @@
+@charset "utf-8";
+*{margin:0;outline:0;padding:0}
+html{background-color:#A6CBE0;background-image:url(../images/fondo.jpg);background-repeat:no-repeat;font-family:Arial,Helvetica,sans-serif;font-size:13px;margin:0;color:#3A3A3A;}
+body{text-align:center}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+a img{border:none}
+ul{list-style: none;}
+li{margin-left: 5px;}
+p{margin:13px 0;}
+#contenedor_info{background-color:#FFF;border:1px solid #999;display:table;height:auto;margin:7px auto 23px;width:950px;text-align: left;color:#3A3A3A;}
+#headerUN{background-color:#FFF;display:block;height:98px;text-align:left;width:950px;color:#3A3A3A;}
+#sedes_un{cursor:pointer;position:relative;z-index:1002}
+#sedes_un .menuSedes ul{background-color:#5176BA;width:81px;color:#FFF}
+#sedes_un .menuSedes li{height:17px;list-style:none;width:77px;margin-left: 2px;border-bottom:1px solid #FFF}
+#sedes_un .menuSedes a{color:#F1FBFB;font-weight:700;text-decoration:none;display:block;line-height:17px;margin-left:2px;font-size: 11px;background-color:#5176BA;}
+#buscador_un{float:right;height:18px;margin-right:15px;width:142px}
+#buscador_un input.field{width:110px;height:12px;border:#666 solid 1px;font-size: 10px;}
+#correo_un{cursor:pointer;position:relative;z-index:1001}
+#correo_un .menuCorreo ul{background-color:#FFF;border:1px #CCC solid;width:178px;color:#66739F}
+#correo_un .menuCorreo li{border-bottom:1px solid #333;height:17px;list-style:none;width:175px;margin-left: 2px;}
+#correo_un .menuCorreo a{color:#66739F;font-weight:700;text-decoration:none;display:block;line-height:17px;margin-left:2px;font-size: 11px;background-color:#FFF;}
+
+#fecha{float:left;height:18px;width:206px;background-color: #FFF;color:#000}
+#Contenido_UN{display:table;width:950px;}
+#piedepagina{background-color:#CACACA;clear:both;color:#333;font-size:10px;height:56px;width:950px}
+#piedireccion{float:left;height:51px;margin-left:10px;margin-top:5px;text-align:left;width:371px}
+#piescudo{float:left;height:51px;width:200px}
+#pietelefono{float:right;height:51px;margin:5px 10px 0 0;text-align:right;width:270px}
+#pietelefono a{text-decoration:none;color:#FFF;background-color:#CACACA;}
+#sedes_un .menuSedes,#correo_un .menuCorreo{display:none;left:0;position:absolute;top:18px}
+#sedes_un .menuSedes li:hover,#correo_un .menuCorreo li:hover,#sedes_un .menuSedes a:hover,#correo_un .menuCorreo a:hover{background-color:#CBD7EB;color:#333}
+#sedes_un:hover .menuSedes,#correo_un:hover .menuCorreo{display:block}
+.creditos{border-top:solid 2px #006699;clear:both;margin-top:2px;}
+.creditos p{margin:10px;}
+.luna1 {width:950px; height:82px;text-align:center;}
+.bar {width: 950px;	height:18px; background-image:url(../images/fill_light.gif); display:table;clear:both;}
+.date {width: 950px;}
+.escudon { width:193px; height:82px; float:left; margin-left:10px; }
+.escudorep {width:90px; height:82px; float:right; margin-left:103px;}
+.depen { margin: 10px auto 0; width:550px; display:table; text-align:center; color:#999; position:relative;  }
+.tipage{ margin: 10px auto 0; width:550px; display:table; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:20px; }
+.in {height:18px; width:84px; float:left;}
+.bard {width:303px; height:18px; float:right; background-image:url(../images/fill_dark.gif) } 
+.pd {width:23px; height:18px; float:right;}
+.cor { margin-left:12px; width:67px; height:18px; float:left; }
+.sed { width:59px; height:18px; float:left;}
+.mapa {font-family:Arial, Helvetica, sans-serif; font-size:10px; margin-top:5px; float:right; font-weight:bold; margin-right:10px;}
+.style1 {
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-weight : normal;
+}
+.style2 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-weight : bold;
+}
