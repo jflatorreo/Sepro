@@ -2,7 +2,7 @@
 <?php
 header('Content-Type: text/html; charset=utf8');
 ?>
-<html lang="en" Content-Type: text/html; charset=utf8>
+<html lang="en">
 <head>
     <title id='Description'>Nuestro Equipo</title>
     <link rel="stylesheet" href="../js/jqwidgets/styles/jqx.base.css" type="text/css" />
@@ -17,7 +17,7 @@ header('Content-Type: text/html; charset=utf8');
     <script type="text/javascript">
         $(document).ready(function () {
             
-            $("#splitter").jqxSplitter({  width: '88%', height: 580, panels: [{ size: '20%'}] });
+            $("#splitter").jqxSplitter({  width: '100%', height: 480, panels: [{ size: '30%'}] });
 
             // prepare the data
             var data = new Array();
