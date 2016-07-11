@@ -93,7 +93,14 @@
     min-width: 190px;
 }
 #cssmenu ul ul a {
-    background: #004B2D;
+    background:background: #023520;
+background: -moz-linear-gradient(top, #023520 0%, #023520 22%, #287552 53%, #023520 79%, #023520 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #023520), color-stop(22%, #023520), color-stop(53%, #287552), color-stop(79%, #023520), color-stop(100%, #023520));
+background: -webkit-linear-gradient(top, #023520 0%, #023520 22%, #287552 53%, #023520 79%, #023520 100%);
+background: -o-linear-gradient(top, #023520 0%, #023520 22%, #287552 53%, #023520 79%, #023520 100%);
+background: -ms-linear-gradient(top, #023520 0%, #023520 22%, #287552 53%, #023520 79%, #023520 100%);
+background: linear-gradient(to bottom, #023520 0%, #023520 22%, #287552 53%, #023520 79%, #023520 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#023520', endColorstr='#023520', GradientType=0 );
     color: #FFF;
     border: 1px solid #00804D;
     border-top: 0 none;
