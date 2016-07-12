@@ -50,33 +50,9 @@ header('Content-Type: text/html; charset=utf8');
 	 "></iframe>
       </div>
 
-      <div id="Contenido_UN">
-         
-         <div id="piedepagina">
-            <div id="piedireccion">
-               <b>Universidad Nacional de Colombia</b><br />
-               Carrera 45 No 26-85 - Edificio Antonio Nariño · Oficina 115 <br />
-               Bogot&aacute; D.C. - Colombia
-            </div>
-            <div id="piescudo">
-               <a href="http://www.gobiernoenlinea.gov.co/">
-               <img src="images/gobierno.gif" alt="Gobierno en LĂ­nea" border="0" width="58" height="48" />
-               </a>
-               <a href="http://www.agenciadenoticias.unal.edu.co/">
-               <img src="images/agencia.gif" alt="Agencia de Noticias UN" border="0" width="84" height="48" />
-               </a>
-               <a href="http://www.contaduria.gov.co">
-               <img src="images/contad.png" border="0" width="51" height="48" alt="Contadur&iacute;a General de la Naci&oacute;n" />
-               </a>
-            </div>
-            <div id="pietelefono">
-               <b>PBX: 3165000 Ext. 16642 </b><br />
-               <a href="mailto:CORREO_DEPENDENCIA@unal.edu.co">sepro_fibog@unal.edu.co</a><br />
-               <span class="avisolegal"><a href="http://www.unal.edu.co/legal.pdf">Aviso Legal</a> </span>
-            </div>
-         </div>
+      <?php include_once 'scripts/pie_pagina.html';?>
       </div>
-	  </div>
+	  
 	  <script>
 	  document.getElementById("qs").className = "active";
 	  </script>
