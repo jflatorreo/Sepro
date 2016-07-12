@@ -1,7 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php
-header('Content-Type: text/html; charset=utf8');
-?>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
    <head>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -16,7 +14,7 @@ header('Content-Type: text/html; charset=utf8');
       <meta http-equiv="last-modified" content=""/>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <link href="css/allCSS.css" rel="stylesheet" type="text/css" />
-      <link href="css/newstyleverde2.css" rel="stylesheet" type="text/css" />
+      <link href="css/newstyle.css" rel="stylesheet" type="text/css" />
 	  <script type="text/javascript" src="js/jssor.slider.min.js"></script>
       <title>Universidad Nacional de Colombia</title>
    <body>
@@ -257,7 +255,7 @@ header('Content-Type: text/html; charset=utf8');
             </div>
 			</div>
 			<div data-b="5" data-p="170.00" style="display: none;">
-                <img data-u="image" src="images/jssor/sepro.jpg" />
+                <img data-u="image" src="images/jssor/06.jpg" />
                 <div data-u="caption" data-t="9" data-3d="1" style="position: absolute; top: 250px; left: -360px; width: 950px; height: 150px;">
                     
                     <div data-u="caption" data-t="12" data-to="0% 50%" style="position: absolute; top: 0px; left: 360px; width: 220px; height: 50px; background-color: #F68121; font-size: 36px; color: #ffffff; line-height: 50px; text-align: center;">Investigación 
@@ -284,30 +282,8 @@ header('Content-Type: text/html; charset=utf8');
         jssor_1_slider_init();
     </script>
       <div id="Contenido_UN">
-         
-         <div id="piedepagina">
-            <div id="piedireccion">
-               <b>Universidad Nacional de Colombia</b><br />
-               Carrera 45 No 26-85 - Edificio Antonio Nariño · Oficina 115 <br />
-               Bogot&aacute; D.C. - Colombia
-            </div>
-            <div id="piescudo">
-               <a href="http://www.gobiernoenlinea.gov.co/">
-               <img src="images/gobierno.gif" alt="Gobierno en LĂ­nea" border="0" width="58" height="48" />
-               </a>
-               <a href="http://www.agenciadenoticias.unal.edu.co/">
-               <img src="images/agencia.gif" alt="Agencia de Noticias UN" border="0" width="84" height="48" />
-               </a>
-               <a href="http://www.contaduria.gov.co">
-               <img src="images/contad.png" border="0" width="51" height="48" alt="Contadur&iacute;a General de la Naci&oacute;n" />
-               </a>
-            </div>
-            <div id="pietelefono">
-               <b>PBX: 3165000 Ext. 16642 </b><br />
-               <a href="mailto:CORREO_DEPENDENCIA@unal.edu.co">sepro_fibog@unal.edu.co</a><br />
-               <span class="avisolegal"><a href="http://www.unal.edu.co/legal.pdf">Aviso Legal</a> </span>
-            </div>
-         </div>
+      <?php include_once 'scripts/pie_pagina.html';?>
+  
       </div>
 	  </div>
 	  <script>

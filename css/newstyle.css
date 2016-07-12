@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+	width:100%;
 	
 }
 #cssmenu ul,
@@ -66,7 +67,7 @@
 }
 #cssmenu {
     background: #333;
-    border-bottom: 4px solid #004B2D;
+    border-bottom: 4px solid #235201;
     font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
     font-size: 16px;
 }
@@ -88,7 +89,7 @@
     text-transform: uppercase;
 }
 #cssmenu ul ul {
-    border-top: 4px solid #004B2D;
+    border-top: 4px solid #235201;
     text-transform: none;
     min-width: 190px;
 }
@@ -124,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#023520', end
 }
 #cssmenu ul ul li:last-child > a {
     border-radius: 0 0 3px 3px;
-    box-shadow: 0 1px 0 #004B2D;
+    box-shadow: 0 1px 0 #235201;
 }
 #cssmenu ul ul li:last-child:hover > a {
     border-radius: 0 0 0 3px;
@@ -144,7 +145,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#023520', end
 }
 #cssmenu ul li:hover > a,
 #cssmenu ul li.active > a {
-    background: #004B2D;
+    background: #235201;
     color: #FFF;
 }
 #cssmenu ul li.has-sub > a:after {
