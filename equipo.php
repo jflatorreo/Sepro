@@ -16,7 +16,7 @@ header('Content-Type: text/html; charset=utf8');
       <meta http-equiv="last-modified" content=""/>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <link href="css/allCSS.css" rel="stylesheet" type="text/css" />
-      <link href="css/newstyleverde2.css" rel="stylesheet" type="text/css" />
+      <link href="css/newstyle.css" rel="stylesheet" type="text/css" />
 	  <script type="text/javascript" src="js/jssor.slider.min.js"></script>
       <title>Universidad Nacional de Colombia</title>
    <body>
