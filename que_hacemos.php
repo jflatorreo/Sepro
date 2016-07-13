@@ -180,7 +180,7 @@
                           </th>
                         </tr>
                         <tr>
-                          <th align="left" valign="top" scope="col"><a href="construccion.html"><img src="images/cilo.jpg" width="638" height="70"  style="padding:20px; margin-bottom:75px"/></a></th>
+                          <th align="left" valign="top" scope="col"><a href="scripts/construccion.html"><img src="images/cilo.jpg" width="638" height="70"  style="padding:20px; margin-bottom:75px"/></a></th>
                         </tr>
                       </table>
                     </th>

@@ -261,7 +261,7 @@
                     <div data-u="caption" data-t="12" data-to="0% 50%" style="position: absolute; top: 0px; left: 360px; width: 220px; height: 50px; background-color: #F68121; font-size: 36px; color: #ffffff; line-height: 50px; text-align: center;">Investigación 
                         
                     </div>
-                    <div data-u="caption" data-t="13" data-to="0% 50%" style="position: absolute; top: 0px; left: 580px; width: 220px; height: 50px; background-color: #F68121; font-size: 36px; color: #ffffff; line-height: 50px; text-align: left;"> y Desarrollo
+                    <div data-u="caption" data-t="13" data-to="0% 50%" style="position: absolute; top: 0px; left: 575px; width: 230px; height: 50px; background-color: #F68121; font-size: 36px; color: #ffffff; line-height: 50px; text-align: left;"> &nbsp; y Desarrollo
                       </div>  
                     
     
