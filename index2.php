@@ -20,7 +20,7 @@
    <body>
       <div id="contenedor_info">
 	  <?php include_once 'scripts/cabeceraUnal.html';
-			include_once 'scripts/cabeceraSepro.html';
+			include_once 'scripts/cabeceraSepro2.html';
       ?>
 	  
 	 <script>

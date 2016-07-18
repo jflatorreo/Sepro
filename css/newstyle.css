@@ -69,7 +69,7 @@
     background: #333;
     border-bottom: 4px solid #235201;
     font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 #cssmenu > ul {
     *display: inline-block;
@@ -121,7 +121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#023520', end
     border-top: 1px solid #00804D;
 }
 #cssmenu ul ul li:hover > a {
-    background: #35a6ff;
+    background: #88B7D3;
 }
 #cssmenu ul ul li:last-child > a {
     border-radius: 0 0 3px 3px;
