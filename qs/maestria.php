@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php
 header('Content-Type: text/html; charset=utf8');
+require_once ("integrantes.php");
+$db=new db;
+$tipo="maestria";
 ?>
 <html lang="en">
 <head>
@@ -22,17 +25,7 @@ header('Content-Type: text/html; charset=utf8');
             // prepare the data
             var data = new Array();
 
-            var firstNames = ["Catherine Ballesteros Gómez",
-"Juan Pablo Cruz Casteblanco",
-"Julian Felipe Latorre Ochoa",
-"David Felipe Medina Mayorga",
-"Francy Tatiana Moreno Duarte",
-"Jairo Enrique Parra Herrera",
-"Juan Camilo Romero Arévalo",
-"Nataly Sánchez Gómez",
-"Andrés Enrique Herrera",
-"Jessica Paola Hernandez Lastre",
-];
+            var firstNames = [<?php echo $db->get_users($tipo);?>];
                       
             var ids = ["avatar_doc",
                        "avatar_doc",
@@ -68,17 +61,7 @@ header('Content-Type: text/html; charset=utf8');
                         '<th align="left" valign="top" scope="col"><table width="80%"border="0"cellspacing="0"cellpadding="0"><tr><th align="left"valign="top"class="style2"scope="col">Jessica Paola Hernandez Lastre</th></tr></table></th>',
                         ];
 
-            var notes = ['<div id="container"><div id="floated_rigth">'+imagenes[0]+'</div>'+textos[0]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[1]+'</div>'+textos[1]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[2]+'</div>'+textos[2]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[3]+'</div>'+textos[3]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[4]+'</div>'+textos[4]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[5]+'</div>'+textos[5]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[6]+'</div>'+textos[6]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[7]+'</div>'+textos[7]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[8]+'</div>'+textos[8]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[9]+'</div>'+textos[9]+'</div>',
-                         ];
+            var notes = [<?php echo $db->get_notes(17);?> ];
 
             var k = 0;
             for (var i = 0; i < firstNames.length; i++) {

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php
 header('Content-Type: text/html; charset=utf8');
+require_once ("integrantes.php");
+$db=new db;
+$tipo="doctorado";
 ?>
 <html lang="en">
 <head>
@@ -22,14 +25,7 @@ header('Content-Type: text/html; charset=utf8');
             // prepare the data
             var data = new Array();
 
-            var firstNames = ["Delio Alexander Balcázar Camacho",
-"Iván Darío Cárdenas Barbosa",
-"Oscar Palacio Leon",
-"Laura Vanessa Palacios Arguello",
-"Oscar Alexander Rincón Guevara",
-"Egdda Patricia Vanegas Escamilla",
-"Frank Alexander Ballesteros Riveros",
-"Javier Arturo Orjuela Castro"];
+            var firstNames = [<?php echo $db->get_users($tipo);?>];
                       
             var ids = ["avatar_doc",
                        "avatar_doc",
@@ -59,15 +55,7 @@ header('Content-Type: text/html; charset=utf8');
                         '<th align="left" valign="top" scope="col"><table width="80%"border="0"cellspacing="0"cellpadding="0"><tr><th align="left"valign="top"class="style2"scope="col">Javier Arturo Orjuela Castro</th></tr></table></th>',
                         ];
 
-            var notes = ['<div id="container"><div id="floated_rigth">'+imagenes[0]+'</div>'+textos[0]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[1]+'</div>'+textos[1]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[2]+'</div>'+textos[2]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[3]+'</div>'+textos[3]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[4]+'</div>'+textos[4]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[5]+'</div>'+textos[5]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[6]+'</div>'+textos[6]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[7]+'</div>'+textos[7]+'</div>',
-                         ];
+            var notes = [<?php echo $db->get_notes(17);?> ];
 
             var k = 0;
             for (var i = 0; i < firstNames.length; i++) {

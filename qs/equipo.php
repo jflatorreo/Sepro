@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php
 header('Content-Type: text/html; charset=utf8');
+require_once ("integrantes.php");
+$db=new db;
+$tipo="investigadores";
 ?>
 <html lang="en">
 <head>
@@ -22,23 +25,7 @@ header('Content-Type: text/html; charset=utf8');
             // prepare the data
             var data = new Array();
 
-            var firstNames = ["Wilson Adarme Jaimes",
- "Luis Gerardo Astaiza Amado",
- "Juan Pablo Castrellon Torres",
- "John Willmer Escobar Velásquez",
- "Diego Fernando Hernández Losada",
- "Sonia Cecilia Mangones Matos",
- "Alberto Martínez",
- "Carlos Osorio Ramirez",
- "Leonardo Arturo Ronderos Lobo",
- "Hugo Felipe Salazar Sanabria",
- "Carlos Eduardo Sanchez Diaz",
- "Jairo Humberto Torres Acosta",
- "Juan Carlos Torres Pardo",
-"Jorge Luis García Alcaraz",
-"Jesus Gonzalez Feliu",
-"Gustavo Gatica",
-"José Holguín Veras"];
+            var firstNames = [<?php echo $db->get_users($tipo);?>];
                       
             var ids = ["fotoprofe1",
                        "fotoprofe9",
@@ -95,25 +82,7 @@ header('Content-Type: text/html; charset=utf8');
                         '<th align="left"valign="top"scope="col"><table width="80%"border="0"cellspacing="0"cellpadding="0"><tr><th align="left"valign="top"class="style2"scope="col">Jose Holguin-Veras</th></tr><tr><th align="left"valign="top"class="style1"scope="col">Director of the Center for Infrastructure,Transportation,and the Environment(CITE).</th></tr><tr><th align="left"valign="top"class="style1"scope="col">Instituto Politécnico Renssealer</th></tr><tr><th align="left"valign="top"class="style1"scope="col">&nbsp;</th></tr></table></th>'
                         ];
 
-            var notes = ['<div id="container"><div id="floated_rigth">'+imagenes[0]+'</div>'+textos[0]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[1]+'</div>'+textos[1]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[2]+'</div>'+textos[2]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[3]+'</div>'+textos[3]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[4]+'</div>'+textos[4]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[5]+'</div>'+textos[5]+'</div>',
-                         '<div id="container"><div id="floated_rigth">'+imagenes[6]+'</div>'+textos[6]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[7]+'</div>'+textos[7]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[8]+'</div>'+textos[8]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[9]+'</div>'+textos[9]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[10]+'</div>'+textos[10]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[11]+'</div>'+textos[11]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[12]+'</div>'+textos[12]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[13]+'</div>'+textos[13]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[14]+'</div>'+textos[14]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[15]+'</div>'+textos[15]+'</div>',
-                         '<div id="container"><div id="floated_left">'+imagenes[16]+'</div>'+textos[16]+'</div>',
-                         
-                         ];
+            var notes = [<?php echo $db->get_notes(17);?> ];
 
             var k = 0;
             for (var i = 0; i < firstNames.length; i++) {
