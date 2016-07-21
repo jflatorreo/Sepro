@@ -54,31 +54,37 @@
                               </th>
                               <th align="left" valign="top" scope="col">
                                 <table width="645" border="0" cellspacing="0" cellpadding="10">
-                                  <tr>
-                                    <th align="left" valign="top" class="style1" scope="col">
-                                      <div align="justify">
-                                        <p align="justify"><strong>ACADEMIA</strong></p>
-                                        <p align="justify">La característica multidisciplinar que distingue a   SEPRO en la realización de sus proyectos, ha permitido la implementación de   sistemas en los que el aspecto central es la logística, articulado con elementos   que están acordes con las tendencias mundiales como el desarrollo de tecnologías   de información y comunicación (TIC’s), la gestión de modelos de operación   sostenibles económicamente y sustentables (gestión de externalidades), de   acuerdo con los protocolos de cuidado con el medio ambiente y, el diseño de   sistemas pertinentes con políticas públicas y con las necesidades específicas de   la población.<br />
-                                        </p>
-                                      </div>
+								<tr>
+                                    <th align="left" valign="top" scope="col">
+                                      <h2>ACADEMIA</h2>
+                                      <hr>
                                     </th>
                                   </tr>
-                                </table>
-                              </th>
-                              <th align="left" valign="top" scope="col">
-                                <table width="20" border="0" cellspacing="0" cellpadding="10">
-                                  <tr>
-                                    <th align="left" valign="top" scope="col">&nbsp;</th>
-                                  </tr>
+								  <tr>
+									<th> 
+										<img src="../images/titulos_grandes/pregrado.jpg"/>
+									</th >
+								  </tr>
+								  <tr>
+									<th> 
+										<img src="../images/titulos_grandes/posgrados.jpg"/>
+									</th >
+								  </tr>
+								  <tr>
+									<th> 
+										<img src="../images/titulos_grandes/seminarios.jpg"/>
+									</th >
+								  </tr>
+								
+								
+                                  
                                 </table>
                               </th>
                             </tr>
                           </table>
                         </th>
                       </tr>
-                      <tr>
-                        <th align="left" valign="top" scope="col"><img src="/Sepro/images/linea1.jpg" width="685" height="10" /></th>
-                      </tr>
+                      
                       
 					 
                     </table>

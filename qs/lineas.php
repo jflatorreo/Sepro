@@ -71,7 +71,14 @@
                                   </tr>
                                   <tr>
                                     <th align="left" valign="top" class="style1" scope="col">
-                                      <div align="left"><a href="portafolio.html"><img src="/Sepro/images/lineas.jpg" width="500" height="196" /></a></div>
+                                      <img src="../images/lineas/politica.jpg"/>
+									  <img src="../images/lineas/institucional.jpg"/>
+									  <img src="../images/lineas/regional.jpg"/>
+									  <img src="../images/lineas/social.jpg"/>
+									  <img src="../images/lineas/agroindustriales.jpg"/>
+									  <img src="../images/lineas/redes.jpg"/>
+									  <img src="../images/lineas/almacenamiento.jpg"/>
+									  <img src="../images/lineas/trazabilidad.jpg"/>
                                     </th>
                                   </tr>
                                 </table>

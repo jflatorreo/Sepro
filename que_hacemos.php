@@ -117,7 +117,7 @@
                                                   <th align="left" valign="top" scope="col"><img src="images/fotopeqquienes3.jpg" width="209" height="80" /></th>
                                                 </tr>
                                                 <tr>
-                                                  <th align="left" valign="top" scope="col"><a href="" target="_self"><img src="images/linkproyeccion22.jpg" alt="Proyección" width="208" height="51" border="0" /></a></th>
+                                                  <th align="left" valign="top" scope="col"><a href="qh/academia.php" target="_self"><img src="images/academia.jpg" alt="Proyección" width="208" height="51" border="0" /></a></th>
                                                 </tr>
                                               </table>
                                             </th>
@@ -137,7 +137,7 @@
                                                   <th align="left" valign="top" scope="col"><img src="images/fotopeqquienes1.jpg" width="208" height="80" /></th>
                                                 </tr>
                                                 <tr>
-                                                  <th align="left" valign="top" scope="col"><a href="" target="_self"><img src="images/linklineas2.jpg" alt="Líneas de Investigación" width="208" height="51" border="0" /></a></th>
+                                                  <th align="left" valign="top" scope="col"><a href="qh/investigacion.php" target="_self"><img src="images/investigacion.jpg" alt="Líneas de Investigación" width="208" height="51" border="0" /></a></th>
                                                 </tr>
                                               </table>
                                             </th>
@@ -158,7 +158,7 @@
                                                   <th align="left" valign="top" scope="col"><img src="images/fotopeqquienes2.jpg" width="208" height="80" /></th>
                                                 </tr>
                                                 <tr>
-                                                  <th align="left" valign="top" scope="col"><a href="" target="_self"><img src="images/extension2.jpg" alt="Equipo de trabajo" width="208" height="51" border="0" /></a></th>
+                                                  <th align="left" valign="top" scope="col"><a href="qh/extension.php" target="_self"><img src="images/extension.jpg" alt="Equipo de trabajo" width="208" height="51" border="0" /></a></th>
                                                 </tr>
                                               </table>
                                             </th>
