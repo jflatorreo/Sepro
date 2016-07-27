@@ -23,22 +23,10 @@
 			include_once 'scripts/cabeceraSepro.html';
       ?>
     <div id="Contenido_UN">
-      <div>
-        <center>
-          <h3 style="padding-top:15px">
-          INFORMACIÓN DE CONTACTO 
-          <h3>
-        </center>
-		<hr>
-        <table style="width:100%">
-          <tr>
-            <td><iframe src="https://www.google.com/maps/d/u/1/embed?mid=1rk5uC2FP7pW28bxaoz7TW5syU2Y" width="500" height="400" style="margin:20px" border="0"></iframe></td>
-            <td style="text-align:left">telefonos coreeos etc 
-              vbvcbcvbcvbcvbcvbcvxbcvxbcvbnvbnvv
-            </td>
-          </tr>
-        </table>
-      </div>
+				<div class="main">
+				
+				<iframe src="contactform.html"  frameBorder="0" style="width: 100%;min-height: 550px " ></iframe>
+				</div>
       <!-- pie de pagina-->
 	  <?php include_once 'scripts/pie_pagina.html';?>
     </div>
