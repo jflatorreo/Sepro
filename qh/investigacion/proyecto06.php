@@ -11,8 +11,8 @@
     <meta http-equiv="expires" content="0"/>
     <meta http-equiv="last-modified" content=""/>  
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="css/allCSS.css" rel="stylesheet" type="text/css" /> 
-	 <link href="css/newstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/Sepro/css/allCSS.css" rel="stylesheet" type="text/css" /> 
+	<link href="/Sepro/css/newstyle.css" rel="stylesheet" type="text/css" />
     
     <title>Universidad Nacional de Colombia</title>
   
@@ -21,103 +21,12 @@
 </style></head>
   <body>    
     <div id="contenedor_info">      
-      <div id="headerUN">
-      <div class="lunal">
-       <div class="escudon"><a href="http://www.unal.edu.co"><img src="images/Escudo_UN.png" alt="escudo" width="177" height="75" /></a></div>
-       
-       <div class="escudorep"><img src="img/escudorep.jpg" alt="escudo colombia" width="70" height="82" /></div>
-       <div style="float:left">
-       <div class="depen">Facultad de Ingeniería	</div>
-       <div class="tipage">SEPRO · Grupo de Investigación · Logística </div>
-</div>
-      </div>
-      <div class="bar">
-      
-      <div class="in"><a href="index.html"><img src="images/inicio.jpg" alt="inicio" width="84" height="18" border="0" /></a></div>
-       
-      <div class="bard">
-       <div class="sed" id="sedes_un"><img src="images/sedes_un.jpg" alt="sedes" width="59" height="18" />
-        <div class="menuSedes"></div></div>
-       <div class="cor" id="correo_un"><img src="img/correo.png" alt="correo" width="67" height="18" /><div class="menuCorreo"></div></div>
-      <div id="buscador_un">                            
-              <form action="http://www.bogota.unal.edu.co/buscar.html" target="_parent">
-                <input value="015779202118420744272:qk5u5rpebla" type="hidden" name="cx"/> 
-                <input value="FORID:11" type="hidden" name="cof"/>
-                <input class="field" size="15" name="q"/> 
-                <input name="submit" type="image" value="Buscar" src="images/buscargo.gif" alt="go" align="top"/>
-              </form>          
-        </div>
-        </div>
-      <div class="pd"><img src="img/pd.png" alt="pd" width="23" height="18" /></div>
-      </div>
-      <div class="date">
-      <div class="mapa">Mapa del sitio</div>
-      <div style="float:right;">
-      <iframe src="http://www.plantillasweb.unal.edu.co/fecha.php" name="visor" marginwidth="0" marginheight="0" id="visor" width="156" frameborder="0" height="18" scrolling="auto"></iframe> 
-       </div>
-       
-      </div>
-        
-      </div>
-      <div id="Contenido_UN">
-	  <img src="images/cenefa_index.jpg" width="950" height="168" border="0" />
-            <div id='cssmenu'>
-               <ul style="margin-bottom:0px">
-                  <li ><a href='index.html'>Inicio </a></li>
-                  <li >
-                     <a href='quienes_somos.html'>Quienes Somos <img src="images/flecha_abajo.png" style="padding-left:4px"></a>
-                     <ul style="left:-5px">
-                        <li><a href='proyeccion.html'>Direccionamiento<img src="images/flecha_derecha.png" style="position: absolute;top: 50%;right: 15px;margin-top: -8px;"></a>
-						<ul >
-                              <li><a href='proyeccion.html'>Trayectoria</a></li>
-                              <li><a href='vision.html'>Visiòn</a></li>
-							  <li><a href='contribucion.html'>Contribuciòn</a></li>
-                              <li><a href='estrategias.html'>Estrategias</a></li>
-							  <li><a href='impactos.html'>Impactos</a></li>
-                           </ul>
-                        </li>
-                        <li><a href='lineas.html'>Líneas de Investigación</a>
-                        </li>
-                        <li><a href='equipo.html'>Equipo</a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li class='active'>
-                     <a href='que_hacemos.html'>Que Hacemos <img src="images/flecha_abajo.png" style="padding-left:4px"></a>
-                     <ul style="left:-5px">
-                        <li >
-                           <a href='#'>Academia <img src="images/flecha_derecha.png" style="position: absolute;top: 50%;right: 15px;margin-top: -8px;"></a>
-                           <ul >
-                              <li><a href='cursos_pregrado.html'>Cursos Pregrado</a></li>
-                              <li><a href='seminarios.html'>Seminarios</a></li>
-                           </ul>
-                        </li>
-                        <li>
-                           <a href='#'>Investigación <img src="images/flecha_derecha.png" style="position: absolute;top: 50%;right: 15px;margin-top: -8px;"></a>
-                           <ul>
-                              <li><a href='proyectos.html'>Proyectos</a></li>
-							  <li><a href='estudios.html'>Estudios en Logística</a></li>
-                              
-                           </ul>
-                        </li>
-                        <li>
-                           <a href='#'>Extensión <img src="images/flecha_derecha.png" style="position: absolute;top: 50%;right: 15px;margin-top: -8px;"></a>
-                           <ul>
-                              <li><a href='diplomados.html'>Diplomados</a></li>
-                              <li><a href='Congresos.html'>Congresos</a></li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </li>
-                  <li><a href='#'>Contacto</a></li>
-               </ul>
-            </div>
-		
-		
-		<div>
-		
+     <?php include_once '../../scripts/cabeceraUnal.html';
+			include_once '../../scripts/cabeceraSepro.html';
+      ?>
+   
 		<table width="950" border="0" cellspacing="0" cellpadding="0">
-               <t
+               
                <tr>
                   <th align="left" valign="top" scope="col">
                      <div align="left">
@@ -126,14 +35,8 @@
                               <th align="left" valign="top" scope="col">
                                  <table width="265" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                       <th align="left" valign="top" scope="col">
-                                          <img src="images/izquierda_proyectos.jpg" width="265" height="340" border="0" align="left" usemap="#Map2" />
-                                          <map name="Map2" id="Map2">
-                                             <area shape="rect" coords="91,205,255,250" href="https://www.facebook.com/seprologistica" target="_self" alt="Facebook" />
-                                             <area shape="rect" coords="91,279,255,324" href="enlaces.html" target="_self" alt="Enlaces de Interés" />
-                                          </map>
-                                       </th>
-                                    </tr>
+                        <th align="left" valign="top" scope="col"><img src="/Sepro/images/izquierda_proyectos.jpg" width="265" height="340" border="0" usemap="#Map2" /></th>
+                      </tr>
                                  </table>
                               </th>
                               <th align="left" valign="top" scope="col">
@@ -141,7 +44,7 @@
                                     <tr>
                                        <th align="left" valign="top" scope="col">&nbsp;</th>
                                     </tr>
-                                    <tr>
+					 <tr>
                                        <th align="left" valign="top" scope="col">
                                           <table width="685" border="0" cellspacing="0" cellpadding="10">
                                              <tr>
@@ -155,7 +58,7 @@
                                                 <th align="left" valign="top" scope="col">
                                                    <table width="645" border="0" cellspacing="0" cellpadding="10">
                                                       <tr>
-                                                         <th align="left" valign="top" class="style1" scope="col"><img src="images/titulo_cta.jpg" width="645" height="50" border="0" usemap="#Map" /></th>
+                                                         <th align="left" valign="top" class="style1" scope="col"><img src="/Sepro/images/titulo_cta.jpg" width="645" height="50" border="0" usemap="#Map" /></th>
                                                       </tr>
                                                       <tr>
                                                          <th align="left" valign="top" class="style1" scope="col">
@@ -240,40 +143,16 @@
                   </th>
                </tr>
             </table>
-		
+		<?php include_once '../../scripts/pie_pagina.html';?>
 		</div>
 		
         
-    
-      
-      <div id="piedepagina">
-        <div id="piedireccion">
-          <b>Universidad Nacional de Colombia</b><br />
-          Carrera 45 No 26-85 - Edificio Antonio Nariño · Oficina 115 <br />
-          Bogot&aacute; D.C. - Colombia
-        </div>
-        <div id="piescudo">
-          <a href="http://www.gobiernoenlinea.gov.co/">
-            <img src="images/gobierno.gif" alt="Gobierno en LĂ­nea" border="0" width="58" height="48" />
-          </a>
-          <a href="http://www.agenciadenoticias.unal.edu.co/">
-            <img src="images/agencia.gif" alt="Agencia de Noticias UN" border="0" width="84" height="48" />
-          </a>
-          <a href="http://www.contaduria.gov.co">
-						<img src="images/contad.png" border="0" width="51" height="48" alt="Contadur&iacute;a General de la Naci&oacute;n" />
-		  </a>
-        </div>
-        <div id="pietelefono">
-          <b>PBX: 3165000 Ext. 16642 </b><br />
-          <a href="mailto:CORREO_DEPENDENCIA@unal.edu.co">sepro_fibog@unal.edu.co</a><br />
-          <span class="avisolegal"><a href="http://www.unal.edu.co/legal.pdf">Aviso Legal</a> </span>
-        </div>
-      </div>
     </div>
-  
-<map name="Map" id="Map"><area shape="rect" coords="86,11,260,49" href="index.html" target="_self" alt="Quiénes somos" />
-<area shape="rect" coords="84,61,261,107" href="servicios.html" target="_self" alt="Servicios" />
-<area shape="rect" coords="83,117,262,164" href="proyectos.html" target="_self" alt="Proyectos" />
+  <script>
+	  document.getElementById("qh").className = "active";
+	  </script>
+<map name="Map" id="Map">
+<area shape="rect" coords="450,0,645,50" href="/Sepro/qh/investigacion.php" target="_self" alt="Extensión" />
 </map>
 
 

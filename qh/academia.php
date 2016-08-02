@@ -74,6 +74,97 @@
 									<th> 
 										<img src="../images/titulos_grandes/seminarios.jpg"/>
 									</th >
+									<tr>
+                        <th align="left" valign="top" scope="col"><img src="../images/linea1.jpg" width="685" height="10" /></th>
+                      </tr>
+                      <tr>
+                        <th align="left" valign="top" scope="col">
+                          <table width="685" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                              <th align="left" valign="top" scope="col">
+                                <table width="20" border="0" cellspacing="0" cellpadding="10">
+                                  <tr>
+                                    <th align="left" valign="top" scope="col">&nbsp;</th>
+                                  </tr>
+                                </table>
+                              </th>
+                              <th align="left" valign="top" scope="col">
+                                <table width="645" border="0" cellspacing="0" cellpadding="10">
+                                  <tr>
+                                    <th align="left" valign="top" scope="col">
+                                      <table width="645" border="0" cellspacing="0" cellpadding="10">
+                                        <tr>
+                                          <th align="left" valign="top" scope="col">
+                                            <table width="208" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <th align="left" valign="top" scope="col">&nbsp;</th>
+                                              </tr>
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><img src="../images/seminarios/seminario.png" width="209" height="130" /></th>
+                                              </tr>
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><a href="../images/seminarios/v.jpg" target="_blank"><img src="../images/seminarios/seminariov.jpg" alt="Proyección" width="208" height="51" border="0" /></a></th>
+                                              </tr>
+                                            </table>
+                                          </th>
+                                          <th align="left" valign="top" scope="col">
+                                            <table width="10" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><img src="../images/linea2.jpg" width="10" height="150" /></th>
+                                              </tr>
+                                            </table>
+                                          </th>
+                                          <th align="left" valign="top" scope="col">
+                                            <table width="208" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <th align="left" valign="top" scope="col">&nbsp;</th>
+                                              </tr>
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><img src="../images/seminarios/seminario.png" width="208" height="130" /></th>
+                                              </tr>
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><a href="../images/seminarios/vi.pdf" target="_blank"><img src="../images/seminarios/seminariovi.jpg" alt="Líneas de Investigación" width="208" height="51" border="0" /></a></th>
+                                              </tr>
+                                            </table>
+                                          </th>
+                                          <th align="left" valign="top" scope="col">
+                                            <table width="10" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><img src="../images/linea2.jpg" width="10" height="150" /></th>
+                                              </tr>
+                                            </table>
+                                          </th>
+                                          <th align="left" valign="top" scope="col">
+                                            <table width="209" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <th align="left" valign="top" scope="col">&nbsp;</th>
+                                              </tr>
+                                              <!--aquii -->
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><img src="../images/seminarios/seminario.png" width="208" height="130" /></th>
+                                              </tr>
+                                              <tr>
+                                                <th align="left" valign="top" scope="col"><a href="../images/seminarios/viii.jpg" target="_blank"><img src="../images/seminarios/seminarioviii.jpg" alt="Equipo de trabajo" width="208" height="51" border="0" style="margin-bottom:75px"/></a></th>
+                                              </tr>
+                                            </table>
+                                          </th>
+                                        </tr>
+                                      </table>
+                                    </th>
+                                  </tr>
+                                </table>
+                              </th>
+                              <th align="left" valign="top" scope="col">
+                                <table width="20" border="0" cellspacing="0" cellpadding="10">
+                                  <tr>
+                                    <th align="left" valign="top" scope="col" >&nbsp;</th>
+                                  </tr>
+                                </table>
+                              </th>
+                            </tr>
+                          </table>
+                        </th>
+                      </tr>
 								  </tr>
 								
 								

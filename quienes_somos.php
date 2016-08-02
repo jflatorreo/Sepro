@@ -62,17 +62,14 @@
                               <th align="left" valign="top" scope="col">
                                 <table width="645" border="0" cellspacing="0" cellpadding="10" >
                                   <tr>
-                                    <th align="left" valign="top" scope="col">
-                                      <h2>SEPRO</h2>
-                                      <hr>
-                                    </th>
-                                  </tr>
-                                  <tr>
                                     <th align="left" valign="top" class="style1" scope="col">
-                                      <div align="justify" style="font-size:1.2em; padding-top:25px">El grupo de investigación Sociedad, Economía y Productividad SEPRO línea de investigación Supply Chain Management - Logística, adscrito a la Universidad Nacional de Colombia, es un grupo multidisciplinar, con profesionales con perfil doctoral, dedicado al estudio y aplicación de conceptos de la gestión de operación logística, abarcando análisis transversales relacionados con tecnologías de información y comunicación, de automatización, finanzas, economía, medio ambiente, sociología, y de políticas públicas en el contexto de la cadena de abastecimiento / distribución.<br />
+                                      <div align="justify">
+                                        <p align="justify"><strong>SEPRO</strong></p>
+                                        <p align="justify">El grupo de investigación Sociedad, Economía y Productividad SEPRO línea de investigación Supply Chain Management - Logística, adscrito a la Universidad Nacional de Colombia, es un grupo multidisciplinar, con profesionales con perfil doctoral, dedicado al estudio y aplicación de conceptos de la gestión de operación logística, abarcando análisis transversales relacionados con tecnologías de información y comunicación, de automatización, finanzas, economía, medio ambiente, sociología, y de políticas públicas en el contexto de la cadena de abastecimiento / distribución.</p>
                                       </div>
                                     </th>
                                   </tr>
+                                 
                                 </table>
                               </th>
                               <th align="left" valign="top" scope="col">
