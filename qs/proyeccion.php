@@ -37,7 +37,7 @@
                 <tr>
                   <th align="left" valign="top" scope="col"><table width="265" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                      <th align="left" valign="top" scope="col"><img src="/Sepro/images/izquierda_quienes.jpg" width="265" height="340" border="0" usemap="#Map2Map" />
+                      <th align="left" valign="top" scope="col"><img src="/Sepro/images/izquierda_quienes.jpg" width="265" height="340" border="0"  />
                         <map name="Map2Map" id="Map2Map">
                           <area shape="rect" coords="91,279,255,324" href="enlaces.html" target="_self" alt="Enlaces de Interés" />
                         </map>
@@ -66,7 +66,7 @@
                                 <tr>
                                   <th align="left" valign="top" scope="col"><table width="145" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                      <th align="left" valign="top" scope="col"><img src="/Sepro/images/botones_proyeccion2.jpg" width="145" height="130" border="0" usemap="#Map2" /></th>
+                                      <th align="left" valign="top" scope="col"><img src="/Sepro/images/botones_proyeccion.jpg" width="145" height="107" border="0" usemap="#Map2" /></th>
                                     </tr>
                                   </table></th>
                                   <th align="left" valign="top" scope="col"><table width="500" border="0" cellspacing="0" cellpadding="0">
@@ -106,8 +106,7 @@
       
 	  <?php include_once '../scripts/pie_pagina.html';?>
 	  
-	  <map name="Map2" id="Map2"><area shape="rect" coords="91,205,255,250" href="https://www.facebook.com/seprologistica" target="_self" alt="Facebook" />
-		<area shape="rect" coords="3,108,111,124" href="plan2013.html" target="_self" />
+	  <map name="Map2" id="Map2">		
 		<area shape="rect" coords="2,89,110,105" href="impactos.php" target="_self" />
 		<area shape="rect" coords="1,3,112,21" href="proyeccion.php" target="_self" />
 		<area shape="rect" coords="1,26,113,42" href="vision.php" target="_self" />
@@ -115,6 +114,9 @@
 		<area shape="rect" coords="3,66,113,84" href="estrategias.php" target="_self" />
 		<area shape="rect" coords="2,89,110,105" href="impactos.php" target="_self" />
 	</map>
+	<map name="Map" id="Map">
+<area shape="rect" coords="450,0,645,50" href="/Sepro/quienes_somos.php" target="_self" alt="Que hacemos" />
+</map>
 
     </div>
    <script>

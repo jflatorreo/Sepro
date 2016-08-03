@@ -121,6 +121,9 @@
       </table>
 	   <?php include_once '../scripts/pie_pagina.html';?>
     </div>
+		<map name="Map" id="Map">
+<area shape="rect" coords="450,0,645,50" href="/Sepro/quienes_somos.php" target="_self" alt="Que hacemos" />
+</map>
 	<script>
       document.getElementById("qs").className = "active";
     </script>

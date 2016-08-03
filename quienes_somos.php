@@ -69,7 +69,6 @@
                                       </div>
                                     </th>
                                   </tr>
-                                 
                                 </table>
                               </th>
                               <th align="left" valign="top" scope="col">
@@ -183,7 +182,7 @@
             </tr>
             </table>
       </div>
-       <?php include_once 'scripts/pie_pagina.html';?>
+      <?php include_once 'scripts/pie_pagina.html';?>
     </div>
     <script>
       document.getElementById("qs").className = "active";

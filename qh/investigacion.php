@@ -337,8 +337,7 @@
                         <th align="left" valign="top" scope="col"><img src="/Sepro/images/linea3.jpg" width="685" height="10" /></th>
                       </tr>
                       <!--tercera fila-->
-                   
-					 
+
                     </table>
                   </th>
                 </tr>

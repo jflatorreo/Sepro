@@ -19,9 +19,9 @@
   </head>
   <body>
     <div id="contenedor_info">
-	<?php include_once 'scripts/cabeceraUnal.html';
-			include_once 'scripts/cabeceraSepro.html';
-      ?>
+      <?php include_once 'scripts/cabeceraUnal.html';
+        include_once 'scripts/cabeceraSepro.html';
+           ?>
       <div id="Contenido_UN">
         <table width="950" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -34,10 +34,8 @@
                         <tr>
                           <th align="left" valign="top" scope="col">
                             <img src="images/izquierda_quienes.jpg" width="265" height="340" border="0" usemap="#Map2" />
-                            <map name="Map2" id="Map2">
-                              <area shape="rect" coords="91,205,255,250" href="https://www.facebook.com/seprologistica" target="_self" alt="Facebook" />
-                              <area shape="rect" coords="91,279,255,324" href="enlaces.html" target="_self" alt="Enlaces de Interés" />
-                            </map>
+                            <a class="twitter-timeline" data-dnt="true" style="margin-left:15px" href="https://twitter.com/SEPROLOGISTICA" data-widget-id="401392579922497536">Tweets por @SEPROLOGISTICA</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                           </th>
                         </tr>
                       </table>
@@ -60,14 +58,14 @@
                                 </th>
                                 <th align="left" valign="top" scope="col">
                                   <table width="645" border="0" cellspacing="0" cellpadding="10" >
-								  <tr>
-                                    <th align="left" valign="top" class="style1" scope="col">
-                                      <div align="justify">
-                                        <p align="justify"><strong>SEPRO</strong></p>
-                                        <p align="justify">El grupo de investigación Sociedad, Economía y Productividad SEPRO línea de investigación Supply Chain Management - Logística, adscrito a la Universidad Nacional de Colombia, es un grupo multidisciplinar, con profesionales con perfil doctoral, dedicado al estudio y aplicación de conceptos de la gestión de operación logística, abarcando análisis transversales relacionados con tecnologías de información y comunicación, de automatización, finanzas, economía, medio ambiente, sociología, y de políticas públicas en el contexto de la cadena de abastecimiento / distribución.</p>
-                                      </div>
-                                    </th>
-                                  </tr>
+                                    <tr>
+                                      <th align="left" valign="top" class="style1" scope="col">
+                                        <div align="justify">
+                                          <p align="justify"><strong>SEPRO</strong></p>
+                                          <p align="justify">El grupo de investigación Sociedad, Economía y Productividad SEPRO línea de investigación Supply Chain Management - Logística, adscrito a la Universidad Nacional de Colombia, es un grupo multidisciplinar, con profesionales con perfil doctoral, dedicado al estudio y aplicación de conceptos de la gestión de operación logística, abarcando análisis transversales relacionados con tecnologías de información y comunicación, de automatización, finanzas, economía, medio ambiente, sociología, y de políticas públicas en el contexto de la cadena de abastecimiento / distribución.</p>
+                                        </div>
+                                      </th>
+                                    </tr>
                                   </table>
                                 </th>
                                 <th align="left" valign="top" scope="col">
@@ -189,8 +187,8 @@
       </div>
       <?php include_once 'scripts/pie_pagina.html';?>
     </div>
-	<script>
-	  document.getElementById("qh").className = "active";
-	  </script>
+    <script>
+      document.getElementById("qh").className = "active";
+    </script>
   </body>
 </html>

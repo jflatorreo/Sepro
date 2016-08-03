@@ -54,9 +54,6 @@
                               <th align="left" valign="top" scope="col">
                                 <table width="645" border="0" cellspacing="0" cellpadding="10">
                                   <tr>
-                                    <th align="left" valign="top" class="style1" scope="col"><img src="/Sepro/images/titulo_cacao.jpg" width="645" height="50" border="0" usemap="#Map" /></th>
-                                  </tr>
-                                  <tr>
                                     <th align="left" valign="top" class="style1" scope="col">
                                       <table width="645" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
@@ -64,7 +61,7 @@
                                         </tr>
                                         <tr>
                                           <th align="left" valign="top" class="style1" scope="col">
-                                            <div align="justify">PROPUESTA METODOLÓGICA PARA COORDINAR PROCESOS LOGÍSTICOS DE PRODUCCIÓN Y DISTRIBUCIÓN DE CACAO Y PLÁTANO EN LAS ZONAS DE CARICARE Y CAÑO LIMÓN. </div>
+                                            <div align="justify">Curso de pregrado : Logística</div>
                                           </th>
                                         </tr>
                                       </table>
@@ -74,16 +71,12 @@
                                     <th align="left" valign="top" class="style1" scope="col">&nbsp;</th>
                                   </tr>
                                   <tr>
-                                    <th align="left" valign="top" class="style2" scope="col">GENERALIDADES </th>
+                                    <th align="left" valign="top" class="style2" scope="col">DESCRIPCIÓN </th>
                                   </tr>
                                   <tr>
                                     <th align="left" valign="top" class="style1" scope="col">
-                                      <div align="justify">Lugar: Municipios de Arauca y Arauquita (ARAUCA).<br />
-                                        Duración: 4 meses.<br />
-                                        Presupuesto: COP $ 30’000.000.oo <br />
-                                        Fuente de Financiación: <br />
-                                        Universidad Nacional de Colombia – Sede Orinoquía.<br />
-                                        Estado: En Planeación.
+                                      <div align="justify">
+                                        Se trata de una asignatura donde se integra la gestión estratégica con la parte operativa para configurar una propuesta aplicada a la gestión de una cadena de abastecimiento.La coordinación de la cadena de suministro resulta determinante.
                                       </div>
                                     </th>
                                   </tr>
@@ -91,37 +84,80 @@
                                     <th align="left" valign="top" class="style1" scope="col">&nbsp;</th>
                                   </tr>
                                   <tr>
-                                    <th align="left" valign="top" class="style1" scope="col"><span class="style2">OBJETIVO GENERAL</span></th>
+                                    <th align="left" valign="top" class="style1" scope="col"><span class="style2">CONTENIDOS</span></th>
                                   </tr>
                                   <tr>
                                     <th align="left" valign="top" class="style1" scope="col">
-                                      <div align="justify">Desarrollar una metodología para coordinar la operación logística en la producción y distribución de los cultivos de cacao y plátano, soportado en el uso de herramientas modernas de la gestión de la cadena de suministro.</div>
+                                      <div align="justify">
+                                        <br>
+                                        <ul>
+                                          <li>
+                                            <strong>1. Introducción a la Logística y SCM</strong>
+                                            <ul>
+                                              <li>Introducción a la Logística - su evolución</li>
+                                              <li>Los componentes centrales de la Logística</li>
+                                              <li>La gestión de compras y suministros</li>
+                                              <li>Indicadoers de gestión en la SCM</li>
+                                            </ul>
+                                          </li>
+                                          <br>
+                                          <li>
+                                            <strong>2. Configuarción estratégica de la cadena de suministro</strong>
+                                            <ul>
+                                              <li>Introducción a la configuración</li>
+                                              <li>Modelo SCOR y VSM</li>
+                                              <li>Estrategia del portafolio e inventarios en la CS</li>
+                                              <li>Estrategia de distribución VRP TSP</li>
+                                              <li>Estrategia de aprovisionamiento y gestión de almacenes</li>
+                                              <li>Estrategia de localización de Cd y configuración red</li>
+                                            </ul>
+                                          </li>
+                                          <br>
+                                          <li>
+                                            <strong>3. Gestión de operación logística, tercerización y uso de tecnologías</strong>
+                                            <ul>
+                                              <li>Servicio al cliente</li>
+                                              <li>Operadores logisticos</li>
+                                              <li>Las TIC y la estructura tecnológica en logística</li>
+                                              <li>identificación y rastreo, códigos de barras, RFID, GPS</li>
+                                            </ul>
+                                          </li>
+                                          <br>
+                                          <li>
+                                            <strong>4. Gestión de inventarios en la red y manejo de almacenes</strong>
+                                            <ul>
+                                              <li>Sistemas de inventarios</li>
+                                              <li>Coordinacion de inventarios en la red</li>
+                                              <li>Gestión de bodegas WMS picking packing, shipping</li>
+                                              <li>Configuración de bodegas</li>
+                                            </ul>
+                                          </li>
+                                          <br>
+                                          <li>
+                                            <strong>5.Localización de centros de distribución</strong>
+                                            <ul>
+                                              <li>Definición del problema de localización de CD</li>
+                                              <li>Técnicas para determianar un CD, bodega, almacén</li>
+                                              <li>Evaluación de impactos</li>
+                                            </ul>
+                                          </li>
+                                          <br>
+                                          <li>
+                                            <strong>6. Configuración de redes y sistemas de transporte</strong>
+                                            <ul>
+                                              <li>Fundamentos en sistemas de transporte</li>
+                                              <li>Herramientos para la toma de decisiones en transporte</li>
+                                              <li>Configuración de una red de distribución</li>
+                                              <li>Uso de aplicativos especializados</li>
+                                            </ul>
+                                          </li>
+                                          <br>
+                                        </ul>
+                                      </div>
                                     </th>
                                   </tr>
                                   <tr>
                                     <th align="left" valign="top" class="style1" scope="col">&nbsp;</th>
-                                  </tr>
-                                  <tr>
-                                    <th align="left" valign="top" class="style2" scope="col">RESULTADOS</th>
-                                  </tr>
-                                  <tr>
-                                    <th align="left" valign="top" class="style1" scope="col">
-                                      <div align="justify">Metodología para la coordinación de la operación logística en las Zonas de Caricare y Caño Limón.</div>
-                                    </th>
-                                  </tr>
-                                  <tr>
-                                    <th align="left" valign="top" class="style1" scope="col">Informes de investigación dirigidos a los entes teritoriales, productores, distribuidores y público interesado.</th>
-                                  </tr>
-                                  <tr>
-                                    <th align="left" valign="top" class="style1" scope="col">Un artículo de investigación publicado en revista A1.</th>
-                                  </tr>
-                                  <tr>
-                                    <th align="left" valign="top" class="style1" scope="col">2 manuales y/o cartillas de apoyo a la investigación</th>
-                                  </tr>
-                                  <tr>
-                                    <th height="5" align="left" valign="top" class="style1" scope="col">
-                                      <p><strong><a style="color:#093" href="http://www.seprologistica.unal.edu.co/gantt/Arauca/">Ver cronograma de seguimiento</a></strong></p>
-                                    </th>
                                   </tr>
                                 </table>
                               </th>
@@ -154,7 +190,7 @@
       document.getElementById("qh").className = "active";
     </script>
     <map name="Map" id="Map">
-      <area shape="rect" coords="450,0,645,50" href="/Sepro/qh/investigacion.php" target="_self" alt="Extensión" />
+      <area shape="rect" coords="450,0,645,50" href="/Sepro/qh/extension.php" target="_self" alt="Extensión" />
     </map>
   </body>
 </html>
