@@ -144,7 +144,7 @@
                                                               <th align="left" valign="top" scope="col">&nbsp;</th>
                                                             </tr>
                                                             <tr>
-                                                              <th align="left" valign="top" scope="col"><a href="" target="_blank"><img src="../images/curso_inventarios.jpg" width="190" height="190" /></a></th>
+                                                              <th align="left" valign="top" scope="col"><a href="/Sepro/qh/academia/Curso_Pregrado.php?id=1"><img src="../images/curso_inventarios.jpg" width="190" height="190" /></a></th>
                                                             </tr>
                                                           </table>
                                                         </th>

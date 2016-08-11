@@ -155,7 +155,7 @@
                                                 <th align="left" valign="top" scope="col"><img src="images/fotopeqquienes2.jpg" width="208" height="80" /></th>
                                               </tr>
                                               <tr>
-                                                <th align="left" valign="top" scope="col"><a href="qs/equipo.php" target="_self"><img src="images/linkequipo.jpg" alt="Equipo de trabajo" width="208" height="51" border="0" style="margin-bottom:75px"/></a></th>
+                                                <th align="left" valign="top" scope="col"><a href="equipo.php" target="_self"><img src="images/linkequipo.jpg" alt="Equipo de trabajo" width="208" height="51" border="0" style="margin-bottom:75px"/></a></th>
                                               </tr>
                                             </table>
                                           </th>
